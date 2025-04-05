@@ -1,0 +1,71 @@
+.eip1{
+  color: white;
+}
+
+.body1{
+  margin: 0;
+  font-family: Fira sans;
+}
+
+.name-speak{
+  font-size: 24px;
+}
+
+.description-container{
+
+}
+
+.icon-arrow{
+  font-size: 24px;
+  color: #2196F3;
+}
+
+@media (max-width: 860px){
+  .main-name{
+    background-attachment: local;
+    height: 100%;
+  }
+
+  .description{
+    padding: 0;
+  }
+}
+
+@media (max-width: 800px){
+  .eip{
+    font-size: 24px;
+  }
+
+  .description1{
+    font-size: 12px;
+  }
+
+  .description-block{
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+.carousel-container {
+  overflow: hidden;
+  max-width: 1000px; /* Измени на нужную ширину */
+  position: relative;
+  width: 100%;
+}
+
+.carousel-track {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+/*.carousel-track img {*/
+/*  max-width: 500px;*/
+/*  width: 100%;!* Измени на нужную ширину *!*/
+/*  !*height: auto;*!*/
+/*  margin-right: 20px;*/
+/*}*/
