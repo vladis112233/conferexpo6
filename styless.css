@@ -821,6 +821,12 @@ th {
   padding: 0 10px;
 }
 
+@media (max-width: 400px){
+  .table1{
+    font-size: 12px;
+  }
+}
+
 .orange{
   color: #f16500;
   font-size: 38px;
