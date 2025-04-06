@@ -871,7 +871,8 @@ th {
   width: 100%;
   border-radius: 12px;
   background: white;
-  margin: 0 10px;
+  /*margin: 0 10px;*/
+  /*flex-shrink: 0;*/
 }
 
 .speakers2{
@@ -916,7 +917,7 @@ th {
   align-items: center;
   background: url(images/abstract-textured-backgound.jpg);
   /*background: #2196F3;*/
-  margin-top: -10px;
+  /*margin-top: -10px;*/
   padding-bottom: 10px;
 }
 
