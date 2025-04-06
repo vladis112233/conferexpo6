@@ -681,16 +681,23 @@ body.sidebar-opened {overflow:hidden;}
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 2560px;
-  height: 720px;
+  /*height: 720px;*/
+  align-items: center;
+  flex-direction: column;
   width: 100%;
   display: flex;
-  align-items: flex-end;
+  /*align-items: flex-end;*/
+}
+
+.award{
+  max-width: 400px;
+  width: 100%;
 }
 
 .blue-background{
   background: #009cdcc4;
   width: 100%;
-  padding-left: 10px;
+  /*padding-left: 10px;*/
   margin-bottom: 20px;
 }
 
@@ -713,12 +720,14 @@ body.sidebar-opened {overflow:hidden;}
 .date{
   display: flex;
   gap: 1rem;
+  margin-left: 10px;
 }
 
 .date-location{
   gap: 1rem;
   display: flex;
   flex-direction: column;
+  margin-left: 10px;
 }
 
 .date-location1{
@@ -745,6 +754,7 @@ body.sidebar-opened {overflow:hidden;}
 .name-forum{
   color: white;
   font-bold: bold;
+  margin-left: 10px;
 }
 
 .eip{
